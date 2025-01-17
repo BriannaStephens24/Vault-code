@@ -9,7 +9,7 @@
 
 const message = `You have received this message because 
 you have been chosen to open an important vault. 
-Here is the secret combination` // string 
+Here is the secret combination:` // string 
 
 const firstNumber = 8 + 2; // Should equal 10
 // console.log (firstNumber) 
@@ -25,4 +25,4 @@ const vaultCode = `${firstNumber}-${secondNumber}-${thirdNumber}`
 //   you have been chosen to open an important vault. 
 //   Here is the secret combination: ${vaultCode}`);
 
-  alert (`${message} - ${vaultCode}`);
+  alert (`${message} ${vaultCode}`);
